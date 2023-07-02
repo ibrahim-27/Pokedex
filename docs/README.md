@@ -2,6 +2,9 @@
 
 This project is a Pokemon explorer web application implemented using HTML, CSS, and JavaScript. It allows users to browse and filter Pokemon based on their types. The application retrieves data from the PokeAPI to display information and images of different Pokemon.
 
+## Live Preview
+- https://ibrahim-27.github.io/Pokedex/
+
 ## Features
 
 - Pokemon list: The application displays a list of Pokemon with their images, names, and types.
