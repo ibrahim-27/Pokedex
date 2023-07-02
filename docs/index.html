@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="src/pokeball.png" alt="">
+                <h1>Pokedex</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search pokemon by name">
+                <button id="search-btn">Search</button>
+                <div hidden class="error-msg">Pokemon not found !</div>
+            </div>
+        </div>
+    </header>
+    <section class="pokemon-section">
+        <h1>Pokemon List</h1>
+        <div class="categories">
+            <span isSelected="false" class="ghost">Ghost</span>
+            <span isSelected="false" class="rock">Rock</span>
+            <span isSelected="false" class="steel">Steel</span>
+            <span isSelected="false" class="water">Water</span>
+            <span isSelected="false" class="grass">Grass</span>
+            <span isSelected="false" class="psychic">Psychic</span>
+            <span isSelected="false" class="ice">Ice</span>
+            <span isSelected="false" class="dark">Dark</span>
+            <span isSelected="false" class="fairy">Fairy</span>
+            <span isSelected="false" class="normal">Normal</span>
+            <span isSelected="false" class="fighting">Fighting</span>
+            <span isSelected="false" class="flying">Flying</span>
+            <span isSelected="false" class="poison">Poison</span>
+            <span isSelected="false" class="ground">Ground</span>
+            <span isSelected="false" class="bug">Bug</span>
+            <span isSelected="false" class="fire">Fire</span>
+            <span isSelected="false" class="electric">Electric</span>
+            <span isSelected="false" class="dragon">Dragon</span>
+        </div>
+        <div id="pokemon-list" class="pokemon-list">
+        </div>
+    </section>
+    <div class="section-container" hidden>
+        <section hidden class="particular-pokemon-section">
+            <button id="close-btn" onclick="CloseBtnClick(event)">X</button>
+            
+        </section>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
